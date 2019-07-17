@@ -1,4 +1,4 @@
-package com.practice.springbootstarter.controller;
+package com.practice.springbootstarter.model;
 
 public class HelloWorldBean {
 

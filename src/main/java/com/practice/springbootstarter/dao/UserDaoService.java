@@ -1,11 +1,12 @@
-package com.practice.springbootstarter.user;
+package com.practice.springbootstarter.dao;
+
+import com.practice.springbootstarter.model.User;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
-
-import org.springframework.stereotype.Component;
 
 @Component
 public class UserDaoService {

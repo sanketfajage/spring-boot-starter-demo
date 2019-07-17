@@ -1,7 +1,5 @@
 package com.practice.springbootstarter.exception;
 
-import java.util.Date;
-
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.practice.springbootstarter.user.UserNotFoundException;
+import java.util.Date;
 
 @ControllerAdvice
 @RestController
